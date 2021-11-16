@@ -1,7 +1,8 @@
   /* declaring variables */
   
    :root {
-      --blue: rgb(31, 66, 133);
+      --blue: #252262;
+      /* rgb(31, 66, 133); */
       /* --blue: rgb(55, 110, 214); */
       --light-blue: rgb(239, 246, 253);
       --green: rgba(75, 175, 46, 1);
