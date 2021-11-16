@@ -263,3 +263,21 @@
       margin-left: 0px;
       margin-top: 20px;
   }
+  
+  .glow {
+      font-size: 80px;
+      color: #fff;
+      text-align: center;
+      -webkit-animation: glow 1s ease-in-out infinite alternate;
+      -moz-animation: glow 1s ease-in-out infinite alternate;
+      animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+      from {
+          text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px var(--light-blue), 0 0 40px var(--light-blue), 0 0 50px var(--light-blue), 0 0 60px var(--light-blue), 0 0 70px var(--light-blue);
+      }
+      to {
+          text-shadow: 0 0 20px #fff, 0 0 30px var(--light-blue), 0 0 40px var(--light-blue), 0 0 50px var(--light-blue), 0 0 60px var(--light-blue), 0 0 70px var(--light-blue), 0 0 80px var(--light-blue);
+      }
+  }
